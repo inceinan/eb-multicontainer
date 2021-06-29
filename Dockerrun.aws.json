@@ -17,9 +17,9 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "laravelsail/php80-composer",
+      "image": "bitnami/laravel",
       "essential": true,
-      "memory": 512,
+      "memory": 128,
       "mountPoints": [
         {
           "sourceVolume": "php-app",
