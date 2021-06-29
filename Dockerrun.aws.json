@@ -17,9 +17,9 @@
   "containerDefinitions": [
     {
       "name": "php-app",
-      "image": "php:fpm",
+      "image": "docker pull laravelsail/php80-composer",
       "essential": true,
-      "memory": 128,
+      "memory": 512,
       "mountPoints": [
         {
           "sourceVolume": "php-app",
